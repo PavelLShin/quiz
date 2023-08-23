@@ -1,0 +1,32 @@
+.wrapper {
+  text-align: center;
+  font-size: 20px;
+  height: 700px;
+  color: rgb(44, 21, 21);
+  background-color: #6579cf;
+  margin: 150px;
+  border-radius: 10%;
+  border: 5px solid rgba(21, 21, 21, 0.3);
+}
+
+.wrapper h1 {
+  margin-top: 250px;
+}
+
+.wrapper button {
+  font-size: 24px;
+  width: 400px;
+  height: 80px;
+  border-radius: 10%;
+  cursor: pointer;
+  margin-top: 120px;
+  background-color: #ebebeb;
+  border: 2px solid rgba(207, 207, 207, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+}

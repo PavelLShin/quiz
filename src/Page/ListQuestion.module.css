@@ -1,0 +1,53 @@
+.wrapper {
+  text-align: center;
+  font-size: 25px;
+  height: 700px;
+  color: rgb(44, 21, 21);
+  background-color: #ffffff;
+  margin: 150px;
+  border-radius: 10%;
+  border: 5px solid rgba(21, 21, 21, 0.3);
+}
+
+.wrapper h1 {
+  padding-top: 100px;
+}
+
+.list {
+  color: #3f0000;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.list h3 {
+  gap: 10px;
+  text-align: center;
+  width: 20%;
+  background-color: #e9e1e1;
+  margin: 30px auto;
+  font-size: 28px;
+  border-radius: 10px;
+  height: 70px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.list h3:hover {
+  transition: all 0.2s ease-in-out;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+.progress {
+  top: 215px;
+  position: absolute;
+  height: 15px;
+  border-radius: 30px;
+  background: rgb(18, 231, 48);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 231, 48, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
